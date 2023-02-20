@@ -1,0 +1,60 @@
+cd - change directory
+
+Example: cd /var/log changes the current directory to /var/log
+ls - list directory contents
+
+Example: ls /var/log lists the contents of the /var/log directory
+pwd - print working directory
+
+Example: pwd prints the current working directory
+mkdir - make directory
+
+Example: mkdir mydirectory creates a new directory called mydirectory
+rm - remove files or directories
+
+Example: rm myfile.txt removes the file myfile.txt
+cp - copy files or directories
+
+Example: cp myfile.txt /var/log copies the file myfile.txt to the /var/log directory
+mv - move files or directories
+
+Example: mv myfile.txt /var/log moves the file myfile.txt to the /var/log directory
+grep - search for a pattern in a file
+
+Example: grep "error" logfile.txt searches the file logfile.txt for the word "error"
+tail - show the last few lines of a file
+
+Example: tail -n 10 logfile.txt shows the last 10 lines of the file logfile.txt
+top - display system resource usage
+
+Example: top displays real-time information about system resource usage such as CPU and memory usage.
+netstat - display network connections and statistics
+
+Example: netstat -an displays all active network connections on the system.
+ssh - secure shell client for remote access
+
+Example: ssh user@remotehost establishes a secure shell connection to a remote host using the user account.
+chmod - change file permissions
+
+Example: chmod 755 myfile.txt changes the permissions of myfile.txt to allow read, write, and execute access for the owner, and read and execute access for others.
+tar - create or extract compressed archive files
+
+Example: tar -cvzf myarchive.tar.gz mydirectory/ creates a compressed archive file called myarchive.tar.gz containing all the files in the mydirectory directory.
+curl - transfer data from or to a server
+
+Example: curl http://example.com retrieves the content from http://example.com.
+wget - non-interactive download of files from the Web
+
+Example: wget http://example.com/file.zip downloads the file.zip from http://example.com.
+ps - display information about the running processes
+
+Example: ps aux displays all running processes along with their details.
+systemctl - control the systemd system and service manager
+
+Example: systemctl start httpd starts the httpd service.
+journalctl - query and display system log files
+
+Example: journalctl -u httpd.service displays all logs related to the httpd service.
+ifconfig - configure network interface parameters
+
+Example: ifconfig eth0 up brings up the eth0 interface.
